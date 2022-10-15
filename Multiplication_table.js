@@ -17,4 +17,4 @@ const multiplicationTable = n =>{
 }
 
 console.log(multiplicationTable(5))
-// >> [Array [1, 2, 3, 4, 5], Array [2, 4, 6, 8, 10], Array [3, 6, 9, 12, 15], Array [4, 8, 12, 16, 20], Array [5, 10, 15, 20, 25]]
+// >> [[1, 2, 3, 4, 5], [2, 4, 6, 8, 10], [3, 6, 9, 12, 15], [4, 8, 12, 16, 20], [5, 10, 15, 20, 25]]
