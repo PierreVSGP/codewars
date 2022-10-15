@@ -1,3 +1,7 @@
+// https://www.codewars.com/kata/534d2f5b5371ecf8d2000a08/train/javascript
+
+// Your task, is to create NxN multiplication table, of size provided in parameter.
+
 const multiplicationTable = n =>{
   var res = []
   const final = []
@@ -11,3 +15,6 @@ const multiplicationTable = n =>{
   }
   return final
 }
+
+console.log(multiplicationTable(5))
+// >> [Array [1, 2, 3, 4, 5], Array [2, 4, 6, 8, 10], Array [3, 6, 9, 12, 15], Array [4, 8, 12, 16, 20], Array [5, 10, 15, 20, 25]]
